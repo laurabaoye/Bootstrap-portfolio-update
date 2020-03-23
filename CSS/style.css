@@ -1,0 +1,43 @@
+main .about-page,
+main .portfolio-page,
+main .contact-page
+{
+    
+    max-width: 600px;
+    min-height: 50vh;
+}
+
+
+
+img.img-thumbnail {
+    width: 200px;
+    height: auto;
+}
+
+
+
+.project-card {
+    width: 200px;
+    height: 200px;
+}
+.project {
+    height: 50px;
+}
+
+
+
+@media screen and (max-width: 460px) {
+    .about-page .card-body {
+        display: flex;
+        flex-flow: column;
+    }
+    img.img-thumbnail {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .project-card {
+        width: 300px;
+        height: 300px;
+    }
+}
